@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sleep 2
+redshift -x > /dev/null
+redshift -O 3500 > /dev/null
